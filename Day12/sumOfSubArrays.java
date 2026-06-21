@@ -16,7 +16,7 @@ public class sumOfSubArrays {
                 int add = 0;
                 // Print SubArrays
                 for(int k = start;k<=end;k++){
-                    System.out.print(nums[k] + " ");
+                    
                     add += nums[k];
                     count++;
                     
@@ -25,14 +25,14 @@ public class sumOfSubArrays {
                 }
 
                 System.out.println();
-                System.out.print("ADD : "+add);
+                System.out.print("Sum-Of-Sub-Array : "+add);
                 
              }
              System.out.println();    
         }
-        System.out.print("Totalcount : "+count);
+        
         System.out.println();
-        // System.out.print("ADD : "+add);
+        
     }
     
 }
