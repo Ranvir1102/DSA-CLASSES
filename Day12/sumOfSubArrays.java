@@ -4,7 +4,7 @@ public class sumOfSubArrays {
     public static void main(String[] args){
         int nums[] = {2,5,4,8,6,3,4};
         int l = nums.length;
-        int count = 0;
+        
         
 
         // Outer Loop
@@ -18,7 +18,7 @@ public class sumOfSubArrays {
                 for(int k = start;k<=end;k++){
                     
                     add += nums[k];
-                    count++;
+                    
                     
             
  
