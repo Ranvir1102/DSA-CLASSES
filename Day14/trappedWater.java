@@ -1,7 +1,7 @@
 package Day14;
 public class trappedWater {
   public static void main(String[] args){
-    int height[] = {4,2,0,6,3,2,5};
+    int height[] = {5,8,2,0,4,7,9,3,4,7};
     int l = height.length;
     // calculate the leftmax array
     int leftmax[] = new int[l];
